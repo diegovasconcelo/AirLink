@@ -1,0 +1,4 @@
+-r ./base.txt
+
+# Requirements for production environment
+gunicorn

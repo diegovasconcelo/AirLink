@@ -1,0 +1,656 @@
+[
+{
+  "model": "journeys.country",
+  "pk": 1,
+  "fields": {
+    "code": "AR",
+    "name": "Argentina"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 2,
+  "fields": {
+    "code": "ES",
+    "name": "Spain"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 3,
+  "fields": {
+    "code": "IT",
+    "name": "Italy"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 4,
+  "fields": {
+    "code": "AE",
+    "name": "United Arab Emirates"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 5,
+  "fields": {
+    "code": "JP",
+    "name": "Japan"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 6,
+  "fields": {
+    "code": "AU",
+    "name": "Australia"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 7,
+  "fields": {
+    "code": "BR",
+    "name": "Brazil"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 8,
+  "fields": {
+    "code": "UY",
+    "name": "Uruguay"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 9,
+  "fields": {
+    "code": "US",
+    "name": "United States of America"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 10,
+  "fields": {
+    "code": "FR",
+    "name": "France"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 11,
+  "fields": {
+    "code": "CL",
+    "name": "Chile"
+  }
+},
+{
+  "model": "journeys.country",
+  "pk": 12,
+  "fields": {
+    "code": "DE",
+    "name": "Germany"
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 1,
+  "fields": {
+    "code": "BUE",
+    "name": "Buenos Aires",
+    "country": 1
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 2,
+  "fields": {
+    "code": "MAD",
+    "name": "Madrid",
+    "country": 2
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 3,
+  "fields": {
+    "code": "COR",
+    "name": "Córdoba",
+    "country": 1
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 4,
+  "fields": {
+    "code": "BCN",
+    "name": "Barcelona",
+    "country": 2
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 5,
+  "fields": {
+    "code": "MIL",
+    "name": "Milan",
+    "country": 3
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 6,
+  "fields": {
+    "code": "DXB",
+    "name": "Dubai",
+    "country": 4
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 7,
+  "fields": {
+    "code": "TYO",
+    "name": "Tokyo",
+    "country": 5
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 8,
+  "fields": {
+    "code": "SYD",
+    "name": "Sydney",
+    "country": 6
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 9,
+  "fields": {
+    "code": "RIO",
+    "name": "Rio de Janeiro",
+    "country": 7
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 10,
+  "fields": {
+    "code": "SAO",
+    "name": "São Paulo",
+    "country": 7
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 11,
+  "fields": {
+    "code": "MVD",
+    "name": "Montevideo",
+    "country": 8
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 12,
+  "fields": {
+    "code": "MIA",
+    "name": "Miami",
+    "country": 9
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 13,
+  "fields": {
+    "code": "SFO",
+    "name": "San Francisco",
+    "country": 9
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 14,
+  "fields": {
+    "code": "NYC",
+    "name": "New York City",
+    "country": 9
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 15,
+  "fields": {
+    "code": "PAR",
+    "name": "Paris",
+    "country": 10
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 16,
+  "fields": {
+    "code": "SCL",
+    "name": "Santiago",
+    "country": 11
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 17,
+  "fields": {
+    "code": "HAM",
+    "name": "Hamburg",
+    "country": 12
+  }
+},
+{
+  "model": "journeys.city",
+  "pk": 18,
+  "fields": {
+    "code": "BER",
+    "name": "Berlin",
+    "country": 12
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 1,
+  "fields": {
+    "number": "BU3536"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 2,
+  "fields": {
+    "number": "MA9075"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 3,
+  "fields": {
+    "number": "CO3536"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 4,
+  "fields": {
+    "number": "BC9075"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 5,
+  "fields": {
+    "number": "MI1007"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 6,
+  "fields": {
+    "number": "DX8666"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 7,
+  "fields": {
+    "number": "TY5315"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 8,
+  "fields": {
+    "number": "SY4442"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 9,
+  "fields": {
+    "number": "RI4253"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 10,
+  "fields": {
+    "number": "SA4253"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 11,
+  "fields": {
+    "number": "MV7549"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 12,
+  "fields": {
+    "number": "MI1612"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 13,
+  "fields": {
+    "number": "SF1612"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 14,
+  "fields": {
+    "number": "NY1612"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 15,
+  "fields": {
+    "number": "PA0309"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 16,
+  "fields": {
+    "number": "SC2565"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 17,
+  "fields": {
+    "number": "HA4820"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 18,
+  "fields": {
+    "number": "BE4820"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 19,
+  "fields": {
+    "number": "BU3557"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 20,
+  "fields": {
+    "number": "BU3547"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 21,
+  "fields": {
+    "number": "BU3510"
+  }
+},
+{
+  "model": "journeys.flight",
+  "pk": 22,
+  "fields": {
+    "number": "MV8551"
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 1,
+  "fields": {
+    "flight": 1,
+    "departure_time": "2025-03-04T06:20:00Z",
+    "arrival_time": "2025-03-04T06:30:00Z",
+    "departure_city": 1,
+    "arrival_city": 3
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 2,
+  "fields": {
+    "flight": 2,
+    "departure_time": "2025-03-04T12:40:48Z",
+    "arrival_time": "2025-03-04T13:34:48Z",
+    "departure_city": 2,
+    "arrival_city": 4
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 3,
+  "fields": {
+    "flight": 3,
+    "departure_time": "2025-03-04T02:15:48Z",
+    "arrival_time": "2025-03-04T03:10:48Z",
+    "departure_city": 3,
+    "arrival_city": 1
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 4,
+  "fields": {
+    "flight": 4,
+    "departure_time": "2025-03-04T12:45:00Z",
+    "arrival_time": "2025-03-04T13:40:00Z",
+    "departure_city": 4,
+    "arrival_city": 2
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 5,
+  "fields": {
+    "flight": 5,
+    "departure_time": "2025-03-04T14:00:00Z",
+    "arrival_time": "2025-03-05T06:10:00Z",
+    "departure_city": 5,
+    "arrival_city": 16
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 6,
+  "fields": {
+    "flight": 6,
+    "departure_time": "2025-03-04T08:46:48Z",
+    "arrival_time": "2025-03-04T23:45:48Z",
+    "departure_city": 6,
+    "arrival_city": 14
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 7,
+  "fields": {
+    "flight": 7,
+    "departure_time": "2025-03-03T21:27:48Z",
+    "arrival_time": "2025-03-04T14:05:00Z",
+    "departure_city": 7,
+    "arrival_city": 18
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 8,
+  "fields": {
+    "flight": 8,
+    "departure_time": "2025-03-05T23:10:00Z",
+    "arrival_time": "2025-03-06T04:20:00Z",
+    "departure_city": 8,
+    "arrival_city": 9
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 9,
+  "fields": {
+    "flight": 9,
+    "departure_time": "2025-03-04T07:19:10Z",
+    "arrival_time": "2025-03-04T08:30:00Z",
+    "departure_city": 9,
+    "arrival_city": 10
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 10,
+  "fields": {
+    "flight": 10,
+    "departure_time": "2025-03-04T16:25:00Z",
+    "arrival_time": "2025-03-04T17:35:00Z",
+    "departure_city": 10,
+    "arrival_city": 9
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 11,
+  "fields": {
+    "flight": 11,
+    "departure_time": "2025-03-05T06:10:00Z",
+    "arrival_time": "2025-03-05T21:10:00Z",
+    "departure_city": 11,
+    "arrival_city": 13
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 12,
+  "fields": {
+    "flight": 12,
+    "departure_time": "2025-03-04T12:00:00Z",
+    "arrival_time": "2025-03-05T02:40:00Z",
+    "departure_city": 5,
+    "arrival_city": 10
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 13,
+  "fields": {
+    "flight": 13,
+    "departure_time": "2025-03-04T06:09:48Z",
+    "arrival_time": "2025-03-04T12:43:00Z",
+    "departure_city": 13,
+    "arrival_city": 12
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 14,
+  "fields": {
+    "flight": 14,
+    "departure_time": "2025-03-05T15:15:00Z",
+    "arrival_time": "2025-03-05T18:30:00Z",
+    "departure_city": 14,
+    "arrival_city": 12
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 15,
+  "fields": {
+    "flight": 15,
+    "departure_time": "2025-03-04T05:00:00Z",
+    "arrival_time": "2025-03-04T17:10:00Z",
+    "departure_city": 15,
+    "arrival_city": 10
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 16,
+  "fields": {
+    "flight": 16,
+    "departure_time": "2025-03-05T01:10:00Z",
+    "arrival_time": "2025-03-05T10:50:00Z",
+    "departure_city": 16,
+    "arrival_city": 12
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 17,
+  "fields": {
+    "flight": 17,
+    "departure_time": "2025-03-05T07:21:00Z",
+    "arrival_time": "2025-03-05T09:50:00Z",
+    "departure_city": 17,
+    "arrival_city": 18
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 18,
+  "fields": {
+    "flight": 18,
+    "departure_time": "2025-03-04T19:50:00Z",
+    "arrival_time": "2025-03-04T21:24:00Z",
+    "departure_city": 18,
+    "arrival_city": 17
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 19,
+  "fields": {
+    "flight": 19,
+    "departure_time": "2025-03-04T13:22:00Z",
+    "arrival_time": "2025-03-05T03:20:00Z",
+    "departure_city": 1,
+    "arrival_city": 2
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 20,
+  "fields": {
+    "flight": 20,
+    "departure_time": "2025-03-05T07:30:00Z",
+    "arrival_time": "2025-03-06T07:28:00Z",
+    "departure_city": 1,
+    "arrival_city": 5
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 21,
+  "fields": {
+    "flight": 21,
+    "departure_time": "2025-03-05T01:00:00Z",
+    "arrival_time": "2025-03-05T01:45:00Z",
+    "departure_city": 1,
+    "arrival_city": 11
+  }
+},
+{
+  "model": "journeys.flightevent",
+  "pk": 22,
+  "fields": {
+    "flight": 22,
+    "departure_time": "2025-03-05T03:00:00Z",
+    "arrival_time": "2025-03-05T19:55:00Z",
+    "departure_city": 11,
+    "arrival_city": 5
+  }
+}
+]

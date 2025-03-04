@@ -1,0 +1,5 @@
+-r ./base.txt
+
+# Requirements for local environment
+pytest
+pytest-django
