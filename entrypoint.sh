@@ -8,4 +8,4 @@ set -o nounset
 python manage.py migrate
 python manage.py collectstatic --noinput
 
-python -m gunicorn core.wsgi:application -b=0.0.0.0:8000
+python -m gunicorn core.asgi:application -k uvicorn.workers.UvicornWorker -b=0.0.0.0:8000

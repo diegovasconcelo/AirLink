@@ -2,3 +2,4 @@
 
 # Requirements for production environment
 gunicorn
+uvicorn
