@@ -84,7 +84,7 @@ class FlightEvent(models.Model):
     def clean(self):
         if self.departure_time > self.arrival_time:
             raise ValidationError('Departure time cannot be later than arrival time.')
-        
+
         if self.get_duration() == timedelta(seconds=0):
             raise ValidationError('Flight duration cannot be zero.')
 
