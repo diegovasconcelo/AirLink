@@ -1,0 +1,49 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files # 
+*.bak
+
+# Python # 
+*.py[cod]
+*$py.class
+
+# Installer logs 
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ToDo
+*ToDo.txt
+*ToDo.md
+
+# Unit test / coverage reports 
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments 
+.env
+.env.dev
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Visual Studio Code # 
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
